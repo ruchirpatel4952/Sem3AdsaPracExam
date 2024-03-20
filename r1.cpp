@@ -13,7 +13,3 @@ int sum_of_powers(int n){
             return result;
         }
     };
-int main(){
-    int n = 5;
-    cout<<sum_of_powers(n)<<endl;
-}

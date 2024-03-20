@@ -10,7 +10,7 @@ int main(){
         }
 
         else 
-            result = result+ pow (n, n);
-            return result = result +sum_of_powers(n-1);
+            int result = pow(sum_of_powers(n-1),n-1)+pow(sum_of_powers(n-2),n-2);
+            return result;
     };
 }
